@@ -1,10 +1,13 @@
 ---
 
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Greeting from '../components/Greeting';
 const pageTitle = 'Brigalow Home Page'
 
 ---
 <BaseLayout pageTitle={pageTitle}>
 <h2>Creek blog subtitle</h2>
+
+<Greeting client:load messages={["Watsa", "Hello", "Hola", "Mate", 'GDay', 'Buddy', 'Cobba']} />
 </BaseLayout>
 
