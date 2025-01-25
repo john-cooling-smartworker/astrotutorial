@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
+ 
 title: 12 Rules of investing using Syft
 author: Brigalow John
 description: "This post will show up on its own!"
